@@ -35,3 +35,7 @@ button:hover {
     box-shadow: 0 4px 24px rgba(0, 255, 128, 0.3);
     background: linear-gradient(90deg, #00bfff, #00ff80);
 }
+p {
+    color: white;
+    text-align: center;
+}
