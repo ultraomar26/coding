@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <head lang="en">
     <link rel="stylesheet" href="style.css">
-<title>login</title>
+    <title>login</title>
 </head>
 <body>
 <h1> login</h1> 
-<div>
-<input type="text"   placeholder="username" name="username">
-</div>
-<div>
-<input type="password" placeholder="password" name="password">
-</div>
-
-<div>
-    <a href="https://www.instagram.com/" target="_blank">
-        <button type="button">Login</button>
-    </a>
-</div>
+<form action="/login" method="POST">
+    <div>
+        <input type="text" placeholder="username" name="username" required>
+    </div>
+    <div>
+        <input type="password" placeholder="password" name="password" required>
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+</form>
 <p>i dont have an account? <a href="sginup.html">Sign up here</a></p>
 </body>
