@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head lang="en">
     <title>Sign Up</title>
     <style>
@@ -80,17 +81,20 @@ a:hover {
 </head>
 <body>
     <h1>Sign Up</h1>
+<form action="/signup" method="POST">
     <div>
-        <input type="text" placeholder="Username" name="username">
+        <input type="text" placeholder="Username" name="username" required>
     </div>
     <div>
-        <input type="email" placeholder="Email" name="email">
+        <input type="email" placeholder="Email" name="email" required>
     </div>
     <div>
-        <input type="password" placeholder="Password" name="password">
+        <input type="password" placeholder="Password" name="password" required>
     </div>
     <div>
-        <button type="button">Sign Up</button>
+        <button type="submit">Sign Up</button>
+    </div>
+</form>
     </div>
     <p>Already have an account? <a href="login.html">Log in here</a></p>
 
